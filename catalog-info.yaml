@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "lib-dotnet-healthcheck"
+  description: "This library contains common health checks and extensions for .net apps"
+  annotations:
+    github.com/project-slug: gainsway/lib-dotnet-healthcheck
+    backstage.io/techdocs-ref: dir:.
+  tags: 
+    - dotnet
+spec:
+  type: library
+  lifecycle: experimental
+  owner: "group:default/engineering"

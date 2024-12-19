@@ -1,0 +1,8 @@
+site_name: "lib-dotnet-healthcheck"
+site_description: "This library contains common health checks and extensions for .net apps"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core
