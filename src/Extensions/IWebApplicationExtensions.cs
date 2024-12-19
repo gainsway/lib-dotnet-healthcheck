@@ -22,7 +22,7 @@ public static class IWebApplicationExtensions
     public static void MapHealthChecksLiveAndReady(this WebApplication app)
     {
         app.MapHealthChecks(
-            "/healthz/ready",
+            "/ready",
             new HealthCheckOptions
             {
                 Predicate = healthCheck => healthCheck.Tags.Contains(HealthCheckTags.Readiness),
@@ -30,7 +30,7 @@ public static class IWebApplicationExtensions
         );
 
         app.MapHealthChecks(
-            "/healthz/live",
+            "/healthz",
             new HealthCheckOptions
             {
                 Predicate = healthCheck =>
