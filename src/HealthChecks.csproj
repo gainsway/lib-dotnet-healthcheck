@@ -24,13 +24,13 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
-    <PackageReference Include="CSharpier.MSBuild" Version="1.0.3">
+    <PackageReference Include="CSharpier.MSBuild" Version="1.1.2">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
     <PackageReference
       Include="Microsoft.EntityFrameworkCore"
-      Version="9.0.6"
+      Version="9.0.9"
       PrivateAssets="true"
     />
   </ItemGroup>
