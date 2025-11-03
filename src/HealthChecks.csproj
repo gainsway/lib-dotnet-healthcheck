@@ -30,7 +30,7 @@
     </PackageReference>
     <PackageReference
       Include="Microsoft.EntityFrameworkCore"
-      Version="9.0.9"
+      Version="9.0.10"
       PrivateAssets="true"
     />
   </ItemGroup>
