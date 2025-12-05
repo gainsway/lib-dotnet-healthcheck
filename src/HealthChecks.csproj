@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net9.0</TargetFramework>
+    <TargetFramework>net10.0</TargetFramework>
     <RootNamespace>Gainsway.HealthChecks</RootNamespace>
     <PackageId>Gainsway.HealthChecks</PackageId>
     <Version>0.0.0</Version>
@@ -24,13 +24,13 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
-    <PackageReference Include="CSharpier.MSBuild" Version="1.1.2">
+    <PackageReference Include="CSharpier.MSBuild" Version="1.2.1">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
     <PackageReference
       Include="Microsoft.EntityFrameworkCore"
-      Version="9.0.10"
+      Version="10.0.0"
       PrivateAssets="true"
     />
   </ItemGroup>
