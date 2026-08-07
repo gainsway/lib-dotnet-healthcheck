@@ -1,4 +1,3 @@
-using Gainsway.HealthChecks.HealthChecks;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -13,8 +12,9 @@ public static class IHealthChecksBuilderExtensions
         where TDbContext : DbContext
     {
         tags ??= [];
-        builder.AddCheck<DbHealthCheck<TDbContext>>(
-            "Database health check",
+        // see https://learn.microsoft.com/en-us/aspnet/core/host-and-deploy/health-checks?view=aspnetcore-10.0#entity-framework-core-dbcontext-probe
+        builder.AddDbContextCheck<TDbContext>(
+            name: "Database health check",
             tags: [HealthCheckTags.Readiness, HealthCheckTags.Database, .. tags]
         );
         return builder;
