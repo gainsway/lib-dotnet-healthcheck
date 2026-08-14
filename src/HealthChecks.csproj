@@ -30,12 +30,12 @@
     </PackageReference>
     <PackageReference
       Include="Microsoft.EntityFrameworkCore"
-      Version="10.0.9"
+      Version="10.0.10"
       PrivateAssets="true"
     />
     <PackageReference
       Include="Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore"
-      Version="10.0.9"
+      Version="10.0.10"
     />
   </ItemGroup>
 </Project>
