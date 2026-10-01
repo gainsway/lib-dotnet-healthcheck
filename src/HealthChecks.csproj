@@ -20,7 +20,7 @@
     <None Include="..\README.md" Pack="true" PackagePath="\" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="coverlet.collector" Version="10.0.1">
+    <PackageReference Include="coverlet.collector" Version="10.1.0">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
@@ -30,12 +30,12 @@
     </PackageReference>
     <PackageReference
       Include="Microsoft.EntityFrameworkCore"
-      Version="10.0.11"
+      Version="10.0.12"
       PrivateAssets="true"
     />
     <PackageReference
       Include="Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore"
-      Version="10.0.11"
+      Version="10.0.12"
     />
   </ItemGroup>
 </Project>
